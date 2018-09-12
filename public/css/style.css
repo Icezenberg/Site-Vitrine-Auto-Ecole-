@@ -1,122 +1,113 @@
-
-
 /* Polices */
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.coul-1{
+.coul-1 {
     color: black;
 }
 
-.coul-2{
+.coul-2 {
     color: white;
     font-size: 10px;
 }
 
-.subtitle{
+.coul-2b {
+    color: white;
+}
+
+.subtitle {
     font-size: 25px;
 }
 
 /* Caroussel */
-.img_slid{
-    height: 600PX;   
+.img_slid {
+    height: 600PX;
 }
 
-.caption{
+.caption {
     bottom: 150px;
-
 }
-.bg-card{
+
+.bg-card {
     background-color: transparent;
-    border-color: transparent;;
+    border: none;
 }
-
 
 /* Bandeau */
-.banner{
-    height: 50px; 
-    background-color:#002FAE;
+.banner {
+    height: 50px;
+    background-color: #002FAE;
     color: white;
 }
 
-/* Accueil section présentation */
-.sec1_presentation{
-    width: 60%;
-    height:auto;
-    /* background: dimgray; */
-}
 
 /* Code & Permis de conduire */
-.sec1_offre{
+.sec1_offre {
     /* width: 60%; */
-    height:auto;
+    height: auto;
     /* background: dimgray; */
 }
 
-.etapes{
+.etapes {
     height: 100px;
 }
-.badge1{
 
+.badge1 {
     font-size: 20px;
 }
+
 /*  code couleur des boutons*/
 .buton1 {
     background-color: #1CBCC1;
-  }
-  .label{
-    width:300px;
 }
-/* Section document à fournir */
 
-.piècesJust{
+.label {
+    width: 300px;
+}
+
+/* Section document à fournir */
+.piècesJust {
     color: red;
 }
 
 /* page contact */
-
-.icons{
-    color:#1CBCC1;
-
+.icons {
+    color: #1CBCC1;
 }
+
 .map-responsive {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    }
-    
-    .map-responsive iframe {
-    left:0;
-    top:0;
-    height:300px;
-    width:100%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 100%;
     /* position:absolute; */
-    }  
+}
 
-  /* footer */
-  footer{
-      height: 100px;
-      background-color: #002FAE;
-  }
+/* footer */
+footer {
+    height: 100px;
+    background-color: #002FAE;
+}
 
-
-  
 /* unvisited link */
-
 a:link {
     color: white;
 }
 
 /* visited link */
-
 a:visited {
     color: white;
 }
 
 /* mouse over link */
-
 a:hover {
     color: #1CBCC1;
 }

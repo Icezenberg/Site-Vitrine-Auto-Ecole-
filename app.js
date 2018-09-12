@@ -35,25 +35,7 @@ server.get('/contact', function (req, res) {
     res.sendFile(__dirname + '/contact.html');
 });
 
-/**
- * Route vers test.html
- */
-server.get('/test', function (req, res) {
-    res.sendFile(__dirname + '/test.html');
-});
 
-/**
- * Route vers test2.html
- */
-server.get('/test2', function (req, res) {
-    res.sendFile(__dirname + '/test2.html');
-});
-/**
- * Route vers test2.html
- */
-server.get('/test3', function (req, res) {
-    res.sendFile(__dirname + '/test3.html');
-});
 /**
  * Port d'écoute
  */
